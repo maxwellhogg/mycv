@@ -1,0 +1,33 @@
+h1 {
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem;
+	border: var(--border);
+}
+
+p {
+	padding-top: 1rem;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 6rem 0 6rem 0;
+}
+
+.hero img {
+	border-radius: 50%;
+	height: 22rem;
+	width: 22rem;
+	border: var(--border);
+}
+
+.personal-statement {
+	margin-right: 12rem;
+}
+
+.personal-statement-container {
+	padding-left: 12rem;
+	padding-left: 12rem;
+}
