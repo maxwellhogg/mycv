@@ -13,7 +13,7 @@ p {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 6rem 0 6rem 0;
+	padding: 4rem 0 4rem 0;
 }
 
 .hero img {
@@ -23,11 +23,32 @@ p {
 	border: var(--border);
 }
 
-.personal-statement {
-	margin-right: 12rem;
+.hero-profile {
+	margin: 0 0 4rem 0;
+	padding: 1rem 0 1rem 0;
+	display: flex;
+	justify-content: space-around;
+	background: var(--main);
 }
 
-.personal-statement-container {
-	padding-left: 12rem;
-	padding-left: 12rem;
+table {
+	color: var(--lighttext);
+}
+
+td {
+	padding: 0.4rem;
+}
+
+.cv-main {
+	margin: 0 12rem 0 12rem;
+}
+
+.main-container {
+	padding-bottom: 1rem;
+}
+
+.info-block {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 2px dotted black;
 }
