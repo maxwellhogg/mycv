@@ -4,37 +4,37 @@ $name = 'Maxwell Hogg';
 $dob = '12th March 1984';
 $tel = '07407 293 295';
 $email = 'maxy.hogg@gmail.com';
-$personal_statement = 'I am currently working as a tyre fitter at Nordic Tyres. Although I love the job...';
+$personal_statement = 'I am an enthusiastic, reliable, loyal and trustworthy individual with a solid work ethic and excellent practical skills. I believe that my background, which includes operating machinery, warehousing & distribution and full-time further education, has enabled me to develop skills appropriate for a full-time role within your establishment.';
 $employment = array(
     'Nordic Tyres' => array(
         'Job Title' => 'Tyre Fitter/Warehouse Operative',
         'Dates' => 'February 2019 - Present',
-        'Responsibilities' => 'Fitting agricultural and forestry tyres, preparing orders for despatch, loading carriers, receiving container deliveries, general housekeeping.',
+        'Responsibilities' => 'Fitting agricultural and forestry tyres, preparing orders for despatch via an integrated barcoding system, loading haulage carriers, receiving container deliveries, completing regular stock checks, general housekeeping.',
     ),
     'A & G King Timber Ltd.' => array(
         'Job Title' => 'Machine Operator',
         'Dates' => 'July 2017 - February 2019',
-        'Responsibilities' => 'Operating various timber processing equipment such as bandsaw, crosscutter, horizontal saw, and chamfering machine, preparing orders for despatch, general housekeeping.',
+        'Responsibilities' => 'Cutting and processing various timber dimensions at the request of the line manager, carrying out regular size checks, loading haulage vehicles, and carrying out regular maintenance on equipment.',
     ),
     'Marshalls PLC (Locharbriggs Quarry)' => array(
-        'Job Title' => 'Stone Polisher/',
+        'Job Title' => 'Stone Polisher/Machine Operator',
         'Dates' => 'August 2014 - July 2017',
-        'Responsibilities' => ', general housekeeping.',
+        'Responsibilities' => 'Cutting various stone dimensions at the request of the production manager, polishing the finished product, carrying out regular size checks, palletising stones in accordance with customer order preference, loading haulage vehicles, regular equipment maintenance and general housekeeping duties.',
     ),
     'Argos (Church Place)' => array(
-        'Job Title' => 'Stone Polisher/',
+        'Job Title' => 'Stockroom/Sales Assistant',
         'Dates' => 'June 2012 - August 2014',
-        'Responsibilities' => ', general housekeeping.',
+        'Responsibilities' => 'Picking customer orders, taking deliveries and using voice operated technology to relocate newly delivered items within the stockroom, assembling cages containing old stock for return to the appropriate warehouses, carrying out regular stock checks, serving customers and assisting customers when required.',
     ),
     'A & G King Timber Ltd.' => array(
         'Job Title' => 'Machine Operator/',
         'Dates' => 'May 2003 - September 2008',
-        'Responsibilities' => 'Operating various timber processing equipment such as bandsaw, crosscutter, horizontal saw, and chamfering machine, preparing orders for despatch, general housekeeping.',
+        'Responsibilities' => 'Cutting and processing various timber dimensions at the request of the line manager, carrying out regular size checks, loading haulage vehicles, and carrying out regular maintenance on equipment.',
     ),
     'Wallaces Express' => array(
         'Job Title' => 'Machine Operator/',
         'Dates' => 'July 2002 - May 2003',
-        'Responsibilities' => 'Operating various timber processing equipment such as bandsaw, crosscutter, horizontal saw, and chamfering machine, preparing orders for despatch, general housekeeping.',
+        'Responsibilities' => 'Assembling customer orders and positioning them in the warehouse sufficiently for loading the vans as directed by the warehouse supervisor,loading vans appropriately and in a safe manner, delivering stock to customers, taking deliveries and placing new stock in the appropriate positions within the warehouse, general housekeeping duties.',
     ),
 );
 $education = array(
@@ -44,12 +44,12 @@ $education = array(
 		'Qualification' => '',
 	),
 	'Langside College, Glasgow' => array(
-		'Subject' => 'Access to Humanities',
+		'Subject' => 'Access to Humanities (Int.2/Higher Maths, English, IT,',
 		'Dates' => '',
 		'Qualification' => '',
 	),
 	'Dumfries High School' => array(
-		'Subject' => 'BSc (Hons) Psychology)',
+		'Subject' => 'Standard Grade English, Maths, History, Art & Design',
 		'Dates' => '',
 		'Qualification' => '',
 	),
@@ -75,13 +75,11 @@ $nav_items = [
    <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" type="text/css" href="/css/shared.css" />
    <link rel="stylesheet" type="text/css" href="/css/main.css" />
 </head>
 <body>
-	<?php
-		$page_title = "Home";
-	?>
 	<section class="navbar">
 		<div class="navbar-container">
 			<div class="navbar-logo">
