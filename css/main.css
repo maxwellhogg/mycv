@@ -18,17 +18,22 @@ p {
 
 .hero img {
 	border-radius: 50%;
-	height: 22rem;
-	width: 22rem;
+	height: 20rem;
+	width: 20rem;
 	border: var(--border);
 }
 
 .hero-profile {
-	margin: 0 0 4rem 0;
+	margin: 0 0 2rem 0;
 	padding: 1rem 0 1rem 0;
 	display: flex;
 	justify-content: space-around;
 	background: var(--main);
+}
+
+table a {
+	color: var(--lighttext);
+	text-decoration: underline;
 }
 
 table {
@@ -37,6 +42,20 @@ table {
 
 td {
 	padding: 0.4rem;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.social-icons-container {
+	display: flex;
+	justify-content: space around;
+	align-items: center;
+	gap: 1rem;
+	margin: 0 0 2rem 0;
 }
 
 .cv-main {
