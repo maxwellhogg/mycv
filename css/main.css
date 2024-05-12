@@ -24,7 +24,7 @@ p {
 }
 
 .hero-profile {
-	margin: 0 0 2rem 0;
+	margin: 0 0 2.6rem 0;
 	padding: 1rem 0 1rem 0;
 	display: flex;
 	justify-content: space-around;
@@ -54,8 +54,8 @@ td {
 	display: flex;
 	justify-content: space around;
 	align-items: center;
-	gap: 1rem;
-	margin: 0 0 2rem 0;
+	gap: 2rem;
+	margin: 0 0 2.6rem 0;
 }
 
 .cv-main {
@@ -63,7 +63,7 @@ td {
 }
 
 .main-container {
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
 .info-block {

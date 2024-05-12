@@ -4,7 +4,7 @@ $name = 'Maxwell Hogg';
 $dob = '12th March 1984';
 $tel = '07407 293 295';
 $email = 'maxy.hogg@gmail.com';
-$personal_statement = 'I am an enthusiastic, reliable, loyal and trustworthy individual with a solid work ethic and excellent practical skills. I believe that my background, which includes operating machinery, warehousing & distribution and full-time further education, has enabled me to develop skills appropriate for a full-time role within your establishment.';
+$personal_statement = 'I am an enthusiastic, reliable, loyal and trustworthy individual with a solid work ethic and excellent practical skills. Although my background in employment has revolved around more physical work, I am very keen to transition to working in web design and development. I have spent the last year completely committed to learning front-end languages such as HTML, CSS and Javascript and I would love to get some hands-on experience to continue my learning journey.';
 $employment = array(
     'Nordic Tyres' => array(
         'Job Title' => 'Tyre Fitter/Warehouse Operative',
@@ -34,7 +34,7 @@ $employment = array(
     'Wallaces Express' => array(
         'Job Title' => 'Machine Operator/',
         'Dates' => 'July 2002 - May 2003',
-        'Responsibilities' => 'Assembling customer orders and positioning them in the warehouse sufficiently for loading the vans as directed by the warehouse supervisor,loading vans appropriately and in a safe manner, delivering stock to customers, taking deliveries and placing new stock in the appropriate positions within the warehouse, general housekeeping duties.',
+        'Responsibilities' => 'Assembling customer orders, loading vans appropriately and in a safe manner, delivering stock to customers, receiving deliveries and placing new stock in the appropriate positions within the warehouse, general housekeeping duties.',
     ),
 );
 $education = array(
@@ -70,14 +70,14 @@ $nav_items = [
 <head>
   	<meta charset="UTF-8" />
  	<title><?= $name ?> &bull; <?= $page_title ?></title>
-   <meta name="viewport" content="width=device-width,initial-scale=1" />
-   <meta name="description" content="" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" type="text/css" href="/css/shared.css" />
-   <link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="./css/shared.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
 </head>
 <body>
 	<section class="navbar">

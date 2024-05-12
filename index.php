@@ -3,7 +3,7 @@
 	include './includes/header.php';
 ?>
 	<section class="hero">
-		<img src="/images/profile.jpg" alt="My profile image">
+		<img src="./images/profile.jpg" alt="My profile image">
 	</section>
 	<section class="hero-profile">
 		<table class"hero-profile-list">
